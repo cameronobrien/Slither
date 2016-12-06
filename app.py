@@ -21,6 +21,10 @@ class App:
         self.game = Game()
         self.player = Player(3)
         self.apple = Apple(5, 5)
+        file = 'music.mp3'
+        pygame.mixer.init()  # Initialize background music
+        pygame.mixer.music.load(file)
+        pygame.mixer.music.play()
 
     def on_init(self):
         pygame.init()
