@@ -1,9 +1,3 @@
-from pygame.locals import *
-from random import randint
-import pygame
-import time
-
-
 class Apple:
     x = 0
     y = 0
